@@ -26,6 +26,10 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+.border-bottom-blue {
+    border-bottom: solid 3px rgb(14, 111, 175);
+}
+
 a {
     text-decoration: none;
     color: black !important;
@@ -63,5 +67,33 @@ a:hover {
 
   .block-text {
       letter-spacing: 2px;
+      font-size: larger;
+  }
+
+  .footer-copyright {
+      border-top: solid 3px rgb(14, 111, 175);
+      background: rgb(255, 255, 255, 0.5) !important;
+      color: grey !important;
+  }
+
+  .text-grey {
+      color: grey !important;
+  }
+
+  .footer {
+      color: black !important;
+      
+  }
+
+  .hover-blue:hover {
+      text-decoration: none;
+      color: rgb(14, 111, 175);
+  }
+
+  .fas {
+      font-size: xx-large;
+  }
+
+  .footer-size {
       font-size: larger;
   }
