@@ -1,0 +1,16 @@
+.navbar-nav{
+    text-align: right;
+  }
+  .navbar .navbar-nav .nav-link {
+      font-size: 1.1em;
+      padding-right: 1em;
+  }
+
+.bg-nav {
+    background: rgba(215, 215, 216, 0.7);
+    color: white !important;
+}
+
+.main-img {
+    background: url(https://cdn1.epicgames.com/ue/product/Screenshot/ForestHouse0-1920x1080-c854bb9b293be858a30a60776f486f6c.jpg?resize=1&w=1920);
+}
