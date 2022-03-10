@@ -11,6 +11,10 @@
     font-size: large;
 }
 
+.shadow-nav {
+    box-shadow: 10px 10px 20px rgb(189, 186, 186);
+}
+
 .title {
     font-size: xx-large;
 }
@@ -51,16 +55,18 @@ a:hover {
     position: absolute;
     bottom: 20%;
     right: 25%;
-    background-color: rgb(255, 255, 255, 0.5);
+    background-color: rgb(255, 255, 255, 0.8);
     color: black;
     padding: 20px;
     text-align: center;
     width: 50%;
-    border: solid 5px rgb(14, 111, 175);
+    -webkit-box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
+box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
   }
 
   .block-heading {
-      font-size: xx-large;
+      font-size: xxx-large;
       letter-spacing: 2px;
       padding-bottom: 35px;
   }
@@ -97,3 +103,33 @@ a:hover {
   .footer-size {
       font-size: larger;
   }
+
+  .bg-white{
+    color: black;
+}
+
+.font-small {
+    font-size: small;
+    font-weight: lighter;
+}
+.zoom {
+    transition: transform 2s; /* Animation */
+}
+.zoom:hover {
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
+  }
+.rounded-50 {
+   
+        border-radius: 3%;
+    
+}
+.title-about {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.letter-spacing {
+    letter-spacing: 2px;
+}
