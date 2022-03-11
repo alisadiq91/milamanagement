@@ -35,6 +35,10 @@ body{
     border-bottom: solid 3px rgb(14, 111, 175);
 }
 
+.border-top-blue {
+    border-top: solid 3px rgb(14, 111, 175);
+}
+
 .text-black {
     color: black;
 }
