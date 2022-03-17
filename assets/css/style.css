@@ -163,6 +163,19 @@ box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
     font-size:large;
 }
 
+.rounded-50 {
+   
+    border-radius: 3%;
+
+}
+
+.bg-light-blue {
+    background-color: rgb(204, 240, 252);
+}
+
+.bg-light-grey {
+    background-color: rgb(226, 223, 223);
+}
 .contact-icon {
     font-size: xx-large;
 }
