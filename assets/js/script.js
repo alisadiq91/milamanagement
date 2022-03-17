@@ -30,6 +30,7 @@ function showAlert(){
     emailjs.send("service_mc16uvn","template_32j9hd1", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.email.value,
+        "from_number": contactForm.number.value,
         "message": contactForm.enquiry.value
     })
     .then(
@@ -38,7 +39,8 @@ function showAlert(){
             showAlert();
             document.getElementById("fromName").value = '';
                       document.getElementById("fromEmail").value = '';
-                      document.getElementById("message").value = ''; 
+                      document.getElementById("message").value = '';
+                      document.getElementById("fromNumber").value = ''; 
         },
         function(error) {
             console.log("FAILED", error);

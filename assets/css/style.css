@@ -163,6 +163,10 @@ box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
     font-size:large;
 }
 
+.contact-icon {
+    font-size: xx-large;
+}
+
 .col-6 .lettings-img {
     width: 100%;
     height: 100%;
@@ -183,7 +187,7 @@ box-shadow: -1px 1px 5px 5px rgb(66, 143, 194);
 
 .blue-hr-small {
     height:5px;
-    width: 30%;
+    width: 10%;
   background-color:rgb(14, 111, 175);
 }
 

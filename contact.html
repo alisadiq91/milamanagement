@@ -70,6 +70,38 @@ emailjs.init("4OY92GWZ7t9_3ZWW0");
     <hr class="blue-hr">
 </div>
 
+<div class="container-fluid text-center">
+  <div class="row">
+    <div class="col-lg-4">
+      <h2 class=" text-center">Contact Details</h2>
+      <hr class="blue-hr-small">
+      <i class="contact-icon fas fa-home my-3"></i><p>Kemp House<br>160 City Road<br>London<br>EC1V 2NX</p></p>
+      <i class="contact-icon fas fa-envelope my-3"></i><p><a class="hover-blue" href="mailto:info@milamanagement.co.uk">info@milamanagement.co.uk</a></p>
+      <i class="contact-icon fas fa-phone my-3"></i><p><a class="hover-blue" href="tel:07458341414">07458341414</a></p>
+    </div>
+    <div class="col-lg-1"></div>
+    <div class="col-lg-7">
+      <h2 class=" text-center">Send An Enquiry</h2>
+      <hr class="blue-hr-small">
+      <div class="text-box rounded-50 text-center">
+        <form class="forms contact-us-form" onsubmit="return sendMail(this);">
+            <div class="mt-4 inputs"> 
+                
+                <input type="text" class="form-control my-2" id="fromName"  name="name" placeholder=" Name" required>
+                
+                <input type="email" class="form-control my-2" id="fromEmail" name="email" placeholder=" Email" required>
+
+                <input type="number" class="form-control my-2" id="fromNumber" name="number" placeholder=" Phone Number" required>
+                
+                <textarea rows="5" class="form-control my-2" id="message" name="enquiry" placeholder=" Type your message" required></textarea>
+                <button type="submit" class="btn btn-success mt-3"><span class="font-weight-bold letter-spacing">SEND MESSAGE</span></button>
+            </div>
+        </form>
+    </div>
+    </div>
+  </div>
+</div>
+
 <!-- Footer -->
 <footer class="page-footer font-small mdb-color lighten-3 pt-4 border-top-blue">
 
