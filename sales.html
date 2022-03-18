@@ -33,12 +33,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <nav class="navbar navbar-expand-lg bg-nav white-text fixed-top py-4 my-3 shadow-nav">
+    <nav class="navbar navbar-light navbar-expand-lg bg-nav white-text fixed-top py-4 my-3 shadow-nav">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggler3"
             aria-controls="myNavbarToggler3" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand ml-3 text-uppercase title" href="#">Mila Management</a>
+        <a class="navbar-brand ml-3 text-uppercase title" href="index.html"> <img class="logo-header" src="/assets/media/logo-bg.png" alt=""></a>
         <div class="collapse navbar-collapse" id="myNavbarToggler3">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
@@ -70,7 +70,26 @@
     <hr class="blue-hr">
 </div>
 
+<div class="container-fluid">
+  <div class="row">
+    
+    <div class="col-11 mb-5 d-flex justify-content-end">
+      <select name="sort-box" id="property">
+        <option value="sort_price_asc">Price (low-high)</option>
+        <option value="sort_price_desc">Price (high-low)</option>
+        <option value="sort_alph_asc">A-Z</option>
+        <option value="sort_alph_desc">Z-A</option>
+      </select>
+    </div>
+    <div class="col-1"></div>
+  </div>
+</div>
 
+<div class="container my-5 d-flex justify-content-center">
+  <img class="rounded-50" src="https://armls.com/docs/Introducing-Coming-Soon-1.png" alt="">
+</div>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
 <!-- Footer -->
 <footer class="page-footer font-small mdb-color lighten-3 pt-4 border-top-blue">
 
@@ -81,10 +100,16 @@
       <div class="row">
   
         <!-- Grid column -->
-        <div class="col-md-4 col-lg-5 mr-auto my-md-4 my-0 mt-4 mb-1">
+        <div class="col-md-3 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+            <img src="/assets/media/Mila Management Logo.png" alt="">
+  
+        </div>
+        <hr class="clearfix w-100 d-md-none">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 mr-auto my-md-4 my-0 mt-4 mb-1">
   
           <!-- Content -->
-          <h5 class="font-weight-bold text-uppercase mb-4">MILA MANAGAMENT</h5>
+          <h5 class="font-weight-bold text-uppercase mb-4">MILA MANAGEMENT</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at lectus blandit, semper nulla at, facilisis mauris. Nulla bibendum pulvinar egestas. Aliquam viverra orci sit amet ligula malesuada volutpat. Donec.</p>
   
@@ -94,7 +119,7 @@
         <hr class="clearfix w-100 d-md-none">
   
         <!-- Grid column -->
-        <div class="col-md-2 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+        <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
   
           <!-- Links -->
           <h5 class="font-weight-bold text-uppercase mb-4">Useful Links</h5>
@@ -128,7 +153,7 @@
         <hr class="clearfix w-100 d-md-none">
   
         <!-- Grid column -->
-        <div class="col-md-4 col-lg-4 mx-auto my-md-4 my-0 mt-4 mb-1">
+        <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
   
           <!-- Contact details -->
           <h5 class="font-weight-bold text-uppercase mb-4">CONTACT</h5>
@@ -169,3 +194,6 @@
   
   </footer>
   <!-- Footer -->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

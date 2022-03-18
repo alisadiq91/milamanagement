@@ -33,12 +33,12 @@ emailjs.init("4OY92GWZ7t9_3ZWW0");
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <nav class="navbar navbar-expand-lg bg-nav white-text fixed-top py-4 my-3 shadow-nav">
+    <nav class="navbar navbar-light navbar-expand-lg bg-nav white-text fixed-top py-4 my-3 shadow-nav">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggler3"
             aria-controls="myNavbarToggler3" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand ml-3 text-uppercase title" href="#">Mila Management</a>
+        <a class="navbar-brand ml-3 text-uppercase title" href="index.html"> <img class="logo-header" src="/assets/media/logo-bg.png" alt=""></a>
         <div class="collapse navbar-collapse" id="myNavbarToggler3">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
@@ -70,16 +70,16 @@ emailjs.init("4OY92GWZ7t9_3ZWW0");
     <hr class="blue-hr">
 </div>
 
-<div class="container-fluid text-center mb-5">
+<div class="container-fluid no-margin-mobile text-center mb-5">
   <div class="row">
-    <div class="col-lg-4 bg-light-grey ml-3 mr-5 p-5 rounded-50">
+    <div class="col-lg-4 col-md-11 ml-lg-5 ml-sm-2  mr-lg-5 mr-sm-2 bg-light-grey p-5 rounded-50 mb-lg-0 mb-sm-4">
       <h2 class=" text-center">Contact Details</h2>
       <hr class="blue-hr-small">
       <i class="contact-icon fas fa-home my-3"></i><p>Kemp House<br>160 City Road<br>London<br>EC1V 2NX</p></p>
       <i class="contact-icon fas fa-envelope my-3"></i><p><a class="hover-blue" href="mailto:info@milamanagement.co.uk">info@milamanagement.co.uk</a></p>
       <i class="contact-icon fas fa-phone my-3"></i><p><a class="hover-blue" href="tel:07458341414">07458341414</a></p>
     </div>
-    <div class="col-lg-7 p-5 ml-5 mr-1 bg-light-blue rounded-50">
+    <div class="col-lg-7 col-md-11 mx-2 ml-lg-5 ml-sm-2 p-5 bg-light-blue rounded-50">
       <h2 class=" text-center">Send An Enquiry</h2>
       <hr class="blue-hr-small">
       <div class="text-box rounded-50 text-center">
@@ -101,6 +101,7 @@ emailjs.init("4OY92GWZ7t9_3ZWW0");
   </div>
 </div>
 
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
 <!-- Footer -->
 <footer class="page-footer font-small mdb-color lighten-3 pt-4 border-top-blue">
 
@@ -111,10 +112,16 @@ emailjs.init("4OY92GWZ7t9_3ZWW0");
       <div class="row">
   
         <!-- Grid column -->
-        <div class="col-md-4 col-lg-5 mr-auto my-md-4 my-0 mt-4 mb-1">
+        <div class="col-md-3 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+            <img src="/assets/media/Mila Management Logo.png" alt="">
+  
+        </div>
+        <hr class="clearfix w-100 d-md-none">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 mr-auto my-md-4 my-0 mt-4 mb-1">
   
           <!-- Content -->
-          <h5 class="font-weight-bold text-uppercase mb-4">MILA MANAGAMENT</h5>
+          <h5 class="font-weight-bold text-uppercase mb-4">MILA MANAGEMENT</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at lectus blandit, semper nulla at, facilisis mauris. Nulla bibendum pulvinar egestas. Aliquam viverra orci sit amet ligula malesuada volutpat. Donec.</p>
   
@@ -124,7 +131,7 @@ emailjs.init("4OY92GWZ7t9_3ZWW0");
         <hr class="clearfix w-100 d-md-none">
   
         <!-- Grid column -->
-        <div class="col-md-2 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+        <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
   
           <!-- Links -->
           <h5 class="font-weight-bold text-uppercase mb-4">Useful Links</h5>
@@ -158,7 +165,7 @@ emailjs.init("4OY92GWZ7t9_3ZWW0");
         <hr class="clearfix w-100 d-md-none">
   
         <!-- Grid column -->
-        <div class="col-md-4 col-lg-4 mx-auto my-md-4 my-0 mt-4 mb-1">
+        <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
   
           <!-- Contact details -->
           <h5 class="font-weight-bold text-uppercase mb-4">CONTACT</h5>
@@ -199,3 +206,6 @@ emailjs.init("4OY92GWZ7t9_3ZWW0");
   
   </footer>
   <!-- Footer -->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
