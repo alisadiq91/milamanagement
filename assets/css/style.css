@@ -29,6 +29,14 @@
     opacity: 0.8;
 }
 
+.bg-mobile {
+    background-image: url(https://media.architecturaldigest.com/photos/571e97ce818277135ff91620/master/w_2626,h_1821,c_limit/modernist-decor-inspiration-07.jpg);
+    background-repeat: none;
+    background-size: cover;
+    padding-top: 100px !important;
+    padding-bottom: 200px !important;
+}
+
 body{
     color: black;
     font-weight: bolder;
@@ -80,15 +88,13 @@ box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
   }
 
   .text-block-mobile {
-    position: absolute;
-  top: 37%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
     background-color: rgb(255, 255, 255, 0.8);
     color: black;
-    padding: 20px;
-    text-align: center;
+    padding: 20px 20px 20px 20px;
+    margin-top: 150px;
     width: 80%;
+    text-align: center;
     -webkit-box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
 -moz-box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
 box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
@@ -100,20 +106,19 @@ box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
       padding-bottom: 35px;
   }
 
+  .block-heading-mobile {
+    font-size: x-large;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
   .block-text {
       letter-spacing: 2px;
       font-size: larger;
   }
-  .block-heading-mb {
-    font-size: x-large;
-    letter-spacing: 2px;
-    padding-bottom: 35px;
-    font-weight: bolder;
-}
 
-.block-text-mb {
-    letter-spacing: 2px;
-    font-size: x-small;
+  .block-text-mobile {
+    font-size: medium;
 }
 
   .footer-copyright {
