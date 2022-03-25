@@ -127,6 +127,9 @@ box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
       color: grey !important;
   }
 
+  .width-80 {
+      width: 100%;
+  }
   .text-grey {
       color: grey !important;
   }
@@ -202,7 +205,7 @@ box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
 }
 
 .bg-light-blue {
-    background-color: rgb(204, 240, 252);
+    background-color: rgb(14, 111, 175, 0.7);
 }
 
 .bg-light-grey {
