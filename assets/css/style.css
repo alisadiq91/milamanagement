@@ -13,8 +13,8 @@
 }
 
 .btn-book {
-    background-color: #2c77b1;
-    border-radius: 70%;
+    background-color: rgba(0, 0, 0, 0.836);
+    
 
 }
 
@@ -29,7 +29,7 @@
 
 .logo-header {
     height: 70px;
-    width: 170px;
+    width: 150px;
 }
 .shadow-nav {
     box-shadow: 10px 10px 20px rgb(189, 186, 186);
@@ -40,7 +40,7 @@
 }
 
 .bg-img {
-  
+    width: 100%;
     
 }
 
