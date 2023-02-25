@@ -13,7 +13,7 @@
 }
 
 .btn-book {
-    background-color: rgba(0, 0, 0, 0.836);
+    background-image: linear-gradient(to right, black,rgba(0, 0, 0, 0.575),black);
     
 
 }
@@ -29,7 +29,7 @@
 
 .logo-header {
     height: 70px;
-    width: 150px;
+    width: 130px;
 }
 .shadow-nav {
     box-shadow: 10px 10px 20px rgb(189, 186, 186);
