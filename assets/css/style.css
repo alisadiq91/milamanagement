@@ -17,15 +17,20 @@
     color: black !important;
     font-weight: bolder;
     letter-spacing: 3px;
-    border-radius: 60%;
-    border: black 2px solid;
+    text-shadow: 
+    1px 0px 1px #ccc, 0px 1px 1px #eee, 
+    2px 1px 1px #ccc, 1px 2px 1px #eee,
+    3px 2px 1px #ccc, 2px 3px 1px #eee,
+    4px 3px 1px #ccc, 3px 4px 1px #eee,
+    5px 4px 1px #ccc, 4px 5px 1px #eee,
+    6px 5px 1px #ccc, 5px 6px 1px #eee,
+    7px 6px 1px #ccc;
+
 
 }
 
 .btn-book:hover {
-    background-color: rgb(14, 111, 175) !important;
-    color: whitesmoke !important;
-    border: white 2px solid;
+    color: rgb(14, 111, 175) !important;
 }
 
 .padding-btn {
@@ -50,11 +55,8 @@
 }
 
 .bg-mobile {
-    background-image: url(https://media.architecturaldigest.com/photos/571e97ce818277135ff91620/master/w_2626,h_1821,c_limit/modernist-decor-inspiration-07.jpg);
-    background-repeat: none;
-    background-size: cover;
-    padding-top: 100px !important;
-    padding-bottom: 200px !important;
+    
+    padding-top: 150px !important;
 }
 
 body{
@@ -203,6 +205,10 @@ box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
 }
 
 .letter-spacing {
+    letter-spacing: 3px;
+}
+
+.letter-spacing-2 {
     letter-spacing: 2px;
 }
 
@@ -266,6 +272,11 @@ box-shadow: -1px 1px 5px 5px rgb(66, 143, 194);
   background-color:rgb(14, 111, 175);
 }
 
+.blue-hr-x-small {
+    height:2px;
+    width: 5%;
+  background-color:rgb(14, 111, 175);
+}
 .light-blue-hr {
     background-color: rgb(114, 177, 219);
     height:5px;
@@ -279,6 +290,10 @@ box-shadow: -1px 1px 5px 5px rgb(66, 143, 194);
     color: white !important;
     text-decoration: none;
 
+}
+
+.btn-bg {
+    background-color: rgb(14, 111, 175) !important;
 }
 
 .contact-button:hover {
@@ -350,3 +365,19 @@ box-shadow: -1px 1px 5px 5px rgb(66, 143, 194);
     font-size: 18px; /* Increase font size */
   }
 
+
+@media only screen and (max-width: 840px) {
+    .img-mobile {
+      width: 100% !important;
+      display: flex;
+      justify-content: center;
+    }
+
+    .lettings-img {
+        width: 100% !important;
+    }
+
+    .mobile-padding {
+        padding: 0 !important;
+    }
+  }
